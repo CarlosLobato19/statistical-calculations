@@ -1,0 +1,7 @@
+**** 
+    nombre: 
+        serieAgrupada.py
+    funcionalidad:
+        agrupa los datos y genera la frecuencia para cada datos
+        obtiene el N(poblacion) lo cual es la sumatoria de todos los N
+    

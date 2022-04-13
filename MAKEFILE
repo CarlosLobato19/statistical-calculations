@@ -1,0 +1,6 @@
+init:
+	pip install -r requerimientos.txt
+
+test:
+	echo "No creados aun"
+	
