@@ -22,6 +22,7 @@ class SerieAgrupada:
     #retorna info de la frecuencia del dato
     def infoFrecu(self):
         datoInfo = list(self.tablaDeFrecuencias.values())
+
         return datoInfo
 
     #retorna el N(poblacion) de una serie de datos
@@ -36,8 +37,7 @@ class SerieAgrupada:
             frecuenciaRelativa.append(calculando)
         return frecuenciaRelativa
 
-
-    #retirna la frecuencia relativa porcentual
+    #retorna la frecuencia relativa porcentual
     def frecuenciaRelativaPorcen(self):
         datoFRelativa = list(self.tablaDeFrecuencias.values())
         frecuenciaRelaPorcent = []

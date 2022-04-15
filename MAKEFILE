@@ -1,6 +1,8 @@
 init:
 	pip install -r requerimientos.txt
+	sudo apt-get install python3-tk
 
 test:
 	echo "No creados aun"
-	
+
+
